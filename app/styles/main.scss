@@ -105,33 +105,37 @@ evann stuff
         position: fixed;
         top: 0;
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         background-image : url( ../images/soldiers.jpg );
         background-size: cover;
+        box-shadow : inset 0 0 1em #111; 
     }
+
 }
 
 .content{
-    top: 50vh;
+    top: 60vh;
     position: relative;
     background-color: #FFF;
 }
 
 .parallax {
-  .parallaxed {
-    position : relative;
-    height: 75vh;    
-    text-indent: -9999px;
-
-    background-attachment: fixed;
-    background-position: top center;
-    background-size: cover;
-    
-    box-shadow : inset 0 0 1em #111; 
-  }
-    
-  .bg_tanks {
-    background-image : url( ../images/tanks.JPEG ); 
-  }
   
+    .parallaxed {
+        position : relative;
+        height: 60vh;    
+        text-indent: -9999px;
+
+        background-attachment: fixed;
+        background-position: top center;
+        background-size: cover;
+
+        box-shadow : inset 0 0 1em #111;
+
+        &.bg_tanks {
+            background-image : url( ../images/tanks.jpg ); 
+        }
+
+    }
+    
 }
