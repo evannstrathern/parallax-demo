@@ -1,6 +1,11 @@
-node_modules
-dist
-.tmp
-.sass-cache
-bower_components
-test/bower_components
+.sass-cache/
+.sass-cache/*
+.tmp/
+.tmp/*
+*.scssc
+test/
+test/*
+node_modules/
+node_modules/*
+bower_components/
+bower_components/*

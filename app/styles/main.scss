@@ -91,3 +91,42 @@ body {
         border-bottom: 0;
     }
 }
+
+/************************************************
+evann stuff
+************************************************/
+
+
+.header{
+    &.shrink {
+        height: 50vh;
+        background: #bdbdbd;
+        background-image : url( ../images/soldiers.jpg );
+        position: fixed;
+        width: 100%;
+    }
+}
+
+.content{
+    top: 50vh;
+    position: relative;
+}
+
+.parallax {
+  .parallaxed {
+    position : relative;
+    height: 75vh;    
+    text-indent: -9999px;
+
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    
+    box-shadow : inset 0 0 1em #111; 
+  }
+    
+  .bg_tanks {
+    background-image : url( ../images/tanks.JPEG ); 
+  }
+  
+}
